@@ -65,9 +65,9 @@ app.get('/v1/badfolk/1', (req, res) => {
 });
 
 app.get('/v1/badfolk/3', (req, res) => {
-    res.json(goodGuys[3]);
+    res.json(badFolk[3]);
 });
 
 app.get('/v1/badfolk/5', (req, res) => {
-    res.json(goodGuys[5]);
+    res.json(badFolk[5]);
 });
